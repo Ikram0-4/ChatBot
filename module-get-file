@@ -23,5 +23,5 @@ df = pd.DataFrame(documents, columns=["texte"])
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(df["texte"])
 
-print("\n✅ Vectorisation terminée.")
+print("\n Vectorisation terminée.")
 print("Taille du vecteur :", X.shape)
